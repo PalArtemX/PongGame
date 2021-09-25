@@ -15,6 +15,7 @@
 		1A5D26A226FF78BF000CB6AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D26A026FF78BF000CB6AF /* Main.storyboard */; };
 		1A5D26A426FF78CF000CB6AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D26A326FF78CF000CB6AF /* Assets.xcassets */; };
 		1A5D26A726FF78CF000CB6AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D26A526FF78CF000CB6AF /* LaunchScreen.storyboard */; };
+		1A5D26AE26FF9F59000CB6AF /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D26AD26FF9F58000CB6AF /* LLPIXEL3.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		1A5D26A126FF78BF000CB6AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A5D26A326FF78CF000CB6AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A5D26A626FF78CF000CB6AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A5D26AD26FF9F58000CB6AF /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
+		1A5D26AF26FFA04A000CB6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +62,14 @@
 		1A5D269526FF78BF000CB6AF /* PongGame */ = {
 			isa = PBXGroup;
 			children = (
+				1A5D26AF26FFA04A000CB6AF /* Info.plist */,
 				1A5D269626FF78BF000CB6AF /* AppDelegate.swift */,
 				1A5D269826FF78BF000CB6AF /* GameScene.sks */,
 				1A5D269A26FF78BF000CB6AF /* Actions.sks */,
 				1A5D269C26FF78BF000CB6AF /* GameScene.swift */,
 				1A5D269E26FF78BF000CB6AF /* GameViewController.swift */,
 				1A5D26A026FF78BF000CB6AF /* Main.storyboard */,
+				1A5D26AD26FF9F58000CB6AF /* LLPIXEL3.ttf */,
 				1A5D26A326FF78CF000CB6AF /* Assets.xcassets */,
 				1A5D26A526FF78CF000CB6AF /* LaunchScreen.storyboard */,
 			);
@@ -130,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A5D26A226FF78BF000CB6AF /* Main.storyboard in Resources */,
+				1A5D26AE26FF9F59000CB6AF /* LLPIXEL3.ttf in Resources */,
 				1A5D269926FF78BF000CB6AF /* GameScene.sks in Resources */,
 				1A5D26A426FF78CF000CB6AF /* Assets.xcassets in Resources */,
 				1A5D26A726FF78CF000CB6AF /* LaunchScreen.storyboard in Resources */,
@@ -297,6 +303,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H5J3S6F67R;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PongGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -325,6 +332,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H5J3S6F67R;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PongGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
