@@ -71,10 +71,10 @@
 				1A5D269E26FF78BF000CB6AF /* GameViewController.swift */,
 				1A5D26A026FF78BF000CB6AF /* Main.storyboard */,
 				1A5D26B026FFAFFF000CB6AF /* MenuVC.swift */,
+				1A5D26A526FF78CF000CB6AF /* LaunchScreen.storyboard */,
 				1A5D26AD26FF9F58000CB6AF /* LLPIXEL3.ttf */,
 				1A5D26A326FF78CF000CB6AF /* Assets.xcassets */,
 				1A5D26AF26FFA04A000CB6AF /* Info.plist */,
-				1A5D26A526FF78CF000CB6AF /* LaunchScreen.storyboard */,
 			);
 			path = PongGame;
 			sourceTree = "<group>";

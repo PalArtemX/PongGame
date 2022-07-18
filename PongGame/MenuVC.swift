@@ -41,7 +41,6 @@ class MenuVC: UIViewController {
         
         self.navigationController?.pushViewController(gameVC, animated: true)
         
-        
     }
     
 }

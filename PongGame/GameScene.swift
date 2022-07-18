@@ -21,8 +21,6 @@ class GameScene: SKScene {
     var bottomLabel = SKLabelNode()
     
     override func didMove(to view: SKView) {
-        
-        
         topLabel = self.childNode(withName: "topLabel") as! SKLabelNode
         bottomLabel = self.childNode(withName: "bottomLabel") as! SKLabelNode
         
@@ -34,16 +32,12 @@ class GameScene: SKScene {
         main = self.childNode(withName: "main") as! SKSpriteNode
         main.position.y = (-self.frame.height / 2) + 50
         
-        
-        
-        
         let border = SKPhysicsBody(edgeLoopFrom: self.frame)
         
         border.friction = 0
         border.restitution = 1
         
         self.physicsBody = border
-        
         startGame()
     }
     
@@ -55,7 +49,6 @@ class GameScene: SKScene {
     }
     
     func addScore(playerWhoWin: SKSpriteNode) {
-        
         ball.position = CGPoint(x: 0, y: 0)
         ball.physicsBody?.velocity = CGVector(dx: 0, dy: 0)
         
@@ -125,8 +118,6 @@ class GameScene: SKScene {
             
             break
         }
-        
-        
         
         
         if ball.position.y <= main.position.y - 30 {
