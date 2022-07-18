@@ -65,18 +65,34 @@
 			isa = PBXGroup;
 			children = (
 				1A5D269626FF78BF000CB6AF /* AppDelegate.swift */,
-				1A5D269826FF78BF000CB6AF /* GameScene.sks */,
-				1A5D269A26FF78BF000CB6AF /* Actions.sks */,
-				1A5D269C26FF78BF000CB6AF /* GameScene.swift */,
-				1A5D269E26FF78BF000CB6AF /* GameViewController.swift */,
+				F83D43A12885EAD200A35BAA /* GameScenes */,
+				F83D43A02885EA9200A35BAA /* ViewControllers */,
 				1A5D26A026FF78BF000CB6AF /* Main.storyboard */,
-				1A5D26B026FFAFFF000CB6AF /* MenuVC.swift */,
+				1A5D269C26FF78BF000CB6AF /* GameScene.swift */,
 				1A5D26A526FF78CF000CB6AF /* LaunchScreen.storyboard */,
 				1A5D26AD26FF9F58000CB6AF /* LLPIXEL3.ttf */,
 				1A5D26A326FF78CF000CB6AF /* Assets.xcassets */,
 				1A5D26AF26FFA04A000CB6AF /* Info.plist */,
 			);
 			path = PongGame;
+			sourceTree = "<group>";
+		};
+		F83D43A02885EA9200A35BAA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D269E26FF78BF000CB6AF /* GameViewController.swift */,
+				1A5D26B026FFAFFF000CB6AF /* MenuVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F83D43A12885EAD200A35BAA /* GameScenes */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D269826FF78BF000CB6AF /* GameScene.sks */,
+				1A5D269A26FF78BF000CB6AF /* Actions.sks */,
+			);
+			path = GameScenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
